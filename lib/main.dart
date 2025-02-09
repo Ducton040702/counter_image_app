@@ -114,7 +114,7 @@ class _CounterImageAppState extends State<CounterImageApp>
             ElevatedButton(
               onPressed: _reset,
               child: Text("Reset"),
-              style: ElevatedButton.styleFrom(primary: Colors.red),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
             ),
           ],
         ),
